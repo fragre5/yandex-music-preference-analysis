@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+data/
+.yarn/
+node_modules/
+.DS_Store
+.idea
