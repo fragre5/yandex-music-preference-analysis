@@ -9,7 +9,7 @@ load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://root:rootpass@localhost:27017")
 MONGO_DB = os.getenv("MONGO_DB", "yamusic")
-DATASET_PATH = os.getenv("DATASET_PATH", "../../dataset/yandex_music_data.json")
+DATASET_PATH = os.getenv("DATASET_PATH", "../../analysis/notebooks/dataset/yandex_music_data.json")
 
 def iso_now():
     return datetime.now(timezone.utc).isoformat()
